@@ -29,7 +29,7 @@ function RootHeader() {
                 <h1>사진첩 어플</h1>
             </Link>
             <Link css={S.mypageLink} to={"/mypage"}>
-                <img src={profileImage} alt="" />
+                <img src={profileImage} alt="오류" />
             </Link>
         </div>
     );
